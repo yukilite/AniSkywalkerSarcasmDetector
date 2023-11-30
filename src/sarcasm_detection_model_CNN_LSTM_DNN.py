@@ -16,7 +16,7 @@ from keras.layers import Input
 from keras.models import Sequential, model_from_json
 # from keras.layers.core import Dropout, Activation
 from tensorflow.keras.layers import Dense, Dropout, Activation
-from keras.layers.embeddings import Embedding
+from keras.layers import Embedding
 from keras.layers.recurrent import LSTM
 from keras.layers.convolutional import Convolution1D, MaxPooling1D
 from keras.callbacks import ModelCheckpoint
