@@ -14,7 +14,8 @@ from sklearn import metrics
 from keras.models import Model
 from keras.layers import Input
 from keras.models import Sequential, model_from_json
-from keras.layers.core import Dropout, Dense, Activation
+from keras.layers.core import Dropout, Activation
+from tensorflow.keras.layers import Dense
 from keras.layers.embeddings import Embedding
 from keras.layers.recurrent import LSTM
 from keras.layers.convolutional import Convolution1D, MaxPooling1D
